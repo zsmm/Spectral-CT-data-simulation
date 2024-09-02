@@ -1,8 +1,8 @@
-# CT Spectral Data Simulation Project
+# CT Spectral Data Simulation
 
 ## Project Overview
 
-This project aims to simulate and generate spectral CT data, providing high-quality datasets required for research and development. By considering multiple factors, including the X-ray source energy spectrum, Bowtie filter, material absorption characteristics, and the absorption efficiency of the detector, the project lays the foundation for CT image reconstruction and analysis.
+This project aims to simulate spectral CT data, providing high-quality datasets required for research and development. By considering multiple factors, including the X-ray source energy spectrum, Bowtie filter, material absorption characteristics, and the absorption efficiency of the detector, the project lays the foundation for CT image reconstruction and analysis.
 
 ## Table of Contents
 
