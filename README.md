@@ -25,12 +25,15 @@ Please ensure that Python 3.x and pip are installed on your system. Then, you ca
 pip install -r requirements.txt
 
 ## Usage Instructions
+
 Run the Genimg.py file to generate base material images with different concentrations of iodine, bone, and water. After projecting the base material images (with customizable projection parameters), run the GenHLEnergy_Sino.py file to generate dual-energy sino images. Reconstruction will yield the dual-energy CT images.
 
 ## License
+
 This project is licensed under the ELP 2.0 License.
 
 ## References
+
 The detailed steps of simulation can be found in the following literature:
 @article{zhu2022feasibility,
   title={{Feasibility study of three-material decomposition in dual-energy cone-beam CT imaging with deep learning}},
