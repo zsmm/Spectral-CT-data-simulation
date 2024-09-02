@@ -10,6 +10,7 @@ This project aims to simulate spectral CT data, providing high-quality datasets 
 - [Installation](#installation)
 - [Usage Instructions](#usage-instructions)
 - [License](#license)
+- [References](#references)
 
 ## Features
 
@@ -23,9 +24,21 @@ Please ensure that Python 3.x and pip are installed on your system. Then, you ca
 ```bash
 pip install -r requirements.txt
 
-
 ## Usage Instructions
 Run the Genimg.py file to generate base material images with different concentrations of iodine, bone, and water. After projecting the base material images (with customizable projection parameters), run the GenHLEnergy_Sino.py file to generate dual-energy sino images. Reconstruction will yield the dual-energy CT images.
 
 ## License
 This project is licensed under the ELP 2.0 License.
+
+## References
+The detailed steps of simulation can be found in the following literature:
+@article{zhu2022feasibility,
+  title={{Feasibility study of three-material decomposition in dual-energy cone-beam CT imaging with deep learning}},
+  author={Zhu, Jiongtao and Su, Ting and Zhang, Xin and Yang, Jiecheng and Mi, Donghua and Zhang, Yunxin and Gao, Xiang and Zheng, Hairong and Liang, Dong and Ge, Yongshuai},
+  journal={Physics in Medicine \& Biology},
+  volume={67},
+  number={14},
+  pages={145012},
+  year={2022},
+  publisher={IOP Publishing}
+}
