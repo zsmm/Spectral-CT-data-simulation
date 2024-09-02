@@ -1,35 +1,31 @@
-# CT能谱数据仿真项目
+# CT Spectral Data Simulation Project
 
-## 项目简介
+## Project Overview
 
-本项目旨在模拟和生成能谱CT数据，提供研究和开发中所需的高质量数据集。通过考虑多个因素，包括X射线源能谱、Bowtie滤光片、物质的吸收特性以及探测器的吸收效率，项目为CT图像重建和分析提供了基础。
+This project aims to simulate and generate spectral CT data, providing high-quality datasets required for research and development. By considering multiple factors, including the X-ray source energy spectrum, Bowtie filter, material absorption characteristics, and the absorption efficiency of the detector, the project lays the foundation for CT image reconstruction and analysis.
 
-## 目录
+## Table of Contents
 
-- [特点](#特点)
-- [安装](#安装)
-- [使用说明](#使用说明)
-- [许可证](#许可证)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage Instructions](#usage-instructions)
+- [License](#license)
 
-## 特点
+## Features
 
-- **考虑多种成像因素**：综合考虑了X射线源能谱、Bowtie滤光片、物质吸收特性等多个因素。
-- **灵活的仿真设置**：支持多种参数配置，满足不同的研究需求。
+- **Consideration of Multiple Imaging Factors**: Comprehensive consideration of various factors such as the X-ray source energy spectrum, Bowtie filter, and material absorption characteristics.
+- **Flexible Simulation Settings**: Supports various parameter configurations to meet different research needs.
 
-## 安装
+## Installation
 
-请确保您的系统中已安装Python 3.x及pip。然后，您可以通过以下命令安装项目依赖：
+Please ensure that Python 3.x and pip are installed on your system. Then, you can install the project dependencies using the following command:
 
 ```bash
 pip install -r requirements.txt
 
-## 使用说明
 
-运行Genimg.py文件生成带有不同浓度碘、骨头、水的基物质图像。
-将基物质图像投影后（投影参数可自定义），运行GenHLEnergy_Sino.py文件即可生成双能Sino图像。
-重建即可得到双能CT图像。
+## Usage Instructions
+Run the Genimg.py file to generate base material images with different concentrations of iodine, bone, and water. After projecting the base material images (with customizable projection parameters), run the GenHLEnergy_Sino.py file to generate dual-energy sino images. Reconstruction will yield the dual-energy CT images.
 
-## 许可证
-
-本项目采用 ELP 2.0 许可协议。
-
+## License
+This project is licensed under the ELP 2.0 License.
