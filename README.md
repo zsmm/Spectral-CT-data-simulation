@@ -21,12 +21,13 @@ This project aims to simulate spectral CT data, providing high-quality datasets 
 
 Please ensure that Python 3.x and pip are installed on your system. Then, you can install the project dependencies using the following command:
 
-```bash
 pip install -r requirements.txt
 
 ## Usage Instructions
 
-Run the Genimg.py file to generate base material images with different concentrations of iodine, bone, and water. After projecting the base material images (with customizable projection parameters), run the GenHLEnergy_Sino.py file to generate dual-energy sino images. Reconstruction will yield the dual-energy CT images.
+Run the Genimg.py file to generate base material images with different concentrations of iodine, bone, and water.
+After projecting the base material images (with customizable projection parameters), run the GenHLEnergy_Sino.py file to generate dual-energy sino images.
+Reconstruction will yield the dual-energy CT images.
 
 ## License
 
